@@ -13,7 +13,7 @@
         @csrf
         <div class="form-group">
             <label for="npsn">Kode Sekolah</label>
-            <input type="text" class="form-control @error('npsn') is-invalid @enderror" id="npsn" placeholder="Masukkan Kode Sekolah " name="npsn" value="{{ $school->nspn }}">
+            <input type="text" class="form-control @error('npsn') is-invalid @enderror" id="npsn" placeholder="Masukkan Kode Sekolah " name="npsn" value="{{ $school->npsn }}">
             @error('npsn')<div class="invalid-feedback">{{ $message }}</div>@enderror
         </div>
         <div class="form-group">

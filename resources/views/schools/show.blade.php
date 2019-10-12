@@ -9,6 +9,7 @@
             <h1 class="mt-3">Detail Sekolah</h1>
 
         <ul class="list-group">
+        <li class="list-group-item">{{$school->npsn}}</li>
         <li class="list-group-item">{{$school->namasekolah}}</li>
         <li class="list-group-item">{{$school->alamat}}</li>
         <li class="list-group-item">{{$school->provinsi}}</li>

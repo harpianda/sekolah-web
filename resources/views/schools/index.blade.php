@@ -20,6 +20,7 @@
                 <thead class="thead-dark">
                     <tr>
                     <th scope="col">No</th>
+                    <th scope="col">Kode Sekolah</th>
                     <th scope="col">Nama Sekolah</th>
                     <th scope="col">Alamat</th>
                     <th scope="col">Provinsi</th>
@@ -36,6 +37,7 @@
                     <tr>
                     @foreach ($schools as $school)
                     <th scope="row">{{$loop->iteration}}</th>
+                    <td>{{ $school->npsn}}</td>
                     <td>{{ $school->namasekolah}}</td>
                     <td>{{ $school->alamat}}</td>
                     <td>{{ $school->provinsi}}</td>
